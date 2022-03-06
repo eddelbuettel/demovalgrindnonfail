@@ -1,0 +1,3 @@
+useDynLib(demovalgrindnonfail, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+export("simpleCall")
